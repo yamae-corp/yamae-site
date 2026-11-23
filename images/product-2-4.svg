@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#eef0f4"/>
+  <!-- Aluminum extrusion cross-sections -->
+  <!-- Profile 1 -->
+  <rect x="40" y="80" width="80" height="120" rx="3" fill="#c8cdd8" stroke="#a8afc0" stroke-width="1.5"/>
+  <rect x="52" y="80" width="12" height="120" fill="#b8bfcc"/>
+  <rect x="76" y="80" width="12" height="120" fill="#b8bfcc"/>
+  <rect x="100" y="80" width="8" height="120" fill="#b8bfcc"/>
+  <!-- Profile 2 (T-shape) -->
+  <rect x="160" y="80" width="90" height="20" rx="2" fill="#c0c8d8" stroke="#a8afc0" stroke-width="1.5"/>
+  <rect x="193" y="100" width="24" height="100" rx="2" fill="#c0c8d8" stroke="#a8afc0" stroke-width="1.5"/>
+  <!-- Profile 3 (channel) -->
+  <rect x="295" y="80" width="90" height="20" rx="2" fill="#c8d0dc" stroke="#a8afc0" stroke-width="1.5"/>
+  <rect x="295" y="80" width="14" height="120" rx="2" fill="#c8d0dc" stroke="#a8afc0" stroke-width="1.5"/>
+  <rect x="371" y="80" width="14" height="120" rx="2" fill="#c8d0dc" stroke="#a8afc0" stroke-width="1.5"/>
+  <!-- Shine effect -->
+  <line x1="40" y1="85" x2="120" y2="85" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="160" y1="83" x2="250" y2="83" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <line x1="295" y1="83" x2="385" y2="83" stroke="white" stroke-width="1.5" opacity="0.6"/>
+  <!-- Label -->
+  <rect x="76" y="218" width="300" height="36" rx="4" fill="white" opacity="0.88"/>
+  <text x="226" y="241" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#2a3a5e" font-weight="bold">アルミ押し出し加工品</text>
+</svg>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#2a2a2a"/>
+  <!-- Carbon parts - dark with subtle sheen -->
+  <!-- Bearing ring -->
+  <circle cx="140" cy="133" r="80" fill="#3a3a3a" stroke="#505050" stroke-width="2"/>
+  <circle cx="140" cy="133" r="55" fill="#2a2a2a" stroke="#484848" stroke-width="1.5"/>
+  <circle cx="140" cy="133" r="30" fill="#1e1e1e" stroke="#404040" stroke-width="1"/>
+  <!-- Carbon block -->
+  <rect x="255" y="65" width="110" height="80" rx="3" fill="#3c3c3c" stroke="#505050" stroke-width="1.5"/>
+  <rect x="258" y="68" width="104" height="10" fill="#484848" opacity="0.6"/>
+  <!-- Carbon ring -->
+  <ellipse cx="310" cy="195" rx="55" ry="30" fill="#3a3a3a" stroke="#505050" stroke-width="1.5"/>
+  <ellipse cx="310" cy="195" rx="32" ry="18" fill="#252525" stroke="#404040" stroke-width="1"/>
+  <!-- Shine on bearing -->
+  <path d="M90,100 Q110,85 135,90" stroke="#808080" stroke-width="2" fill="none" opacity="0.6"/>
+  <!-- Label -->
+  <rect x="126" y="228" width="200" height="30" rx="4" fill="white" opacity="0.85"/>
+  <text x="226" y="248" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#2a2a2a" font-weight="bold">カーボン成形品</text>
+</svg>

@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#f0eef8"/>
+  <!-- Ferrite magnet shapes - dark brownish grey -->
+  <!-- Arc magnet (horseshoe) -->
+  <path d="M100,170 A80,80 0 0,1 260,170" stroke="#5a4060" stroke-width="30" fill="none" stroke-linecap="round"/>
+  <path d="M100,170 A80,80 0 0,1 260,170" stroke="#7a5888" stroke-width="26" fill="none" stroke-linecap="round" opacity="0.4"/>
+  <!-- N/S pole labels -->
+  <text x="92" y="180" font-family="Arial" font-size="14" fill="white" font-weight="bold">N</text>
+  <text x="252" y="180" font-family="Arial" font-size="14" fill="white" font-weight="bold">S</text>
+  <!-- Rectangular magnet blocks -->
+  <rect x="295" y="70" width="60" height="100" rx="3" fill="#5a4060" stroke="#7a5888" stroke-width="1.5"/>
+  <rect x="298" y="73" width="54" height="10" fill="#7a5888" opacity="0.5"/>
+  <text x="325" y="125" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">N</text>
+  <rect x="370" y="70" width="40" height="100" rx="3" fill="#6a4870" stroke="#8a6898" stroke-width="1.5"/>
+  <text x="390" y="125" text-anchor="middle" font-family="Arial" font-size="12" fill="white" font-weight="bold">S</text>
+  <!-- Ring magnet -->
+  <circle cx="55" cy="90" r="40" fill="#5a4060" stroke="#7a5888" stroke-width="1.5"/>
+  <circle cx="55" cy="90" r="22" fill="#f0eef8"/>
+  <!-- Label -->
+  <rect x="101" y="225" width="250" height="30" rx="4" fill="white" opacity="0.88"/>
+  <text x="226" y="245" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#3a2850" font-weight="bold">フェライト磁石成形品</text>
+</svg>

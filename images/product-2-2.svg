@@ -1,0 +1,24 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#eef0ed"/>
+  <!-- Foam cell pattern -->
+  <circle cx="40" cy="40" r="28" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="95" cy="30" r="22" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="145" cy="48" r="30" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="200" cy="32" r="24" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="255" cy="50" r="28" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="310" cy="28" r="22" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="360" cy="45" r="30" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="415" cy="35" r="26" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="30" cy="100" r="26" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="80" cy="88" r="20" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="130" cy="108" r="28" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="430" cy="95" r="24" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="50" cy="210" r="26" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="105" cy="230" r="20" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="360" cy="215" r="28" fill="#dde3d8" stroke="#c8d0c2" stroke-width="1"/>
+  <circle cx="415" cy="235" r="22" fill="#e2e7de" stroke="#c8d0c2" stroke-width="1"/>
+  <!-- Label -->
+  <rect x="76" y="118" width="300" height="66" rx="4" fill="white" opacity="0.88"/>
+  <text x="226" y="146" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="13" fill="#3a5a30" font-weight="bold">発泡樹脂・発泡ゴム</text>
+  <text x="226" y="170" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="11" fill="#5a7050">パッキン・シール材</text>
+</svg>

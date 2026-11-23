@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#1e1e1e"/>
+  <!-- Carbon sheet - woven pattern -->
+  <defs>
+    <pattern id="carbon-weave" x="0" y="0" width="20" height="20" patternUnits="userSpaceOnUse">
+      <rect x="0" y="0" width="10" height="10" fill="#2e2e2e"/>
+      <rect x="10" y="10" width="10" height="10" fill="#2e2e2e"/>
+      <rect x="0" y="10" width="10" height="10" fill="#383838"/>
+      <rect x="10" y="0" width="10" height="10" fill="#383838"/>
+      <line x1="0" y1="0" x2="20" y2="0" stroke="#444" stroke-width="0.5"/>
+      <line x1="0" y1="10" x2="20" y2="10" stroke="#444" stroke-width="0.5"/>
+      <line x1="0" y1="0" x2="0" y2="20" stroke="#444" stroke-width="0.5"/>
+      <line x1="10" y1="0" x2="10" y2="20" stroke="#444" stroke-width="0.5"/>
+    </pattern>
+  </defs>
+  <rect x="40" y="40" width="372" height="186" rx="3" fill="url(#carbon-weave)" stroke="#555" stroke-width="1.5"/>
+  <!-- Sheet edge -->
+  <rect x="40" y="40" width="372" height="10" rx="3" fill="#555" opacity="0.5"/>
+  <rect x="40" y="40" width="8" height="186" fill="#555" opacity="0.4"/>
+  <!-- Shine -->
+  <rect x="40" y="40" width="372" height="5" rx="3" fill="white" opacity="0.08"/>
+  <line x1="60" y1="50" x2="300" y2="70" stroke="white" stroke-width="1" opacity="0.06"/>
+  <!-- Label -->
+  <rect x="126" y="228" width="200" height="30" rx="4" fill="white" opacity="0.85"/>
+  <text x="226" y="248" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#1e1e1e" font-weight="bold">カーボンシート</text>
+</svg>

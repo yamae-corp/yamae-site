@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#f0f0ee"/>
+  <!-- Ceramic pieces arranged -->
+  <rect x="60" y="60" width="90" height="65" rx="4" fill="#d8d2c8" stroke="#b8b2a8" stroke-width="1.5"/>
+  <rect x="165" y="55" width="75" height="75" rx="6" fill="#dedad4" stroke="#b8b2a8" stroke-width="1.5"/>
+  <rect x="255" y="65" width="55" height="55" rx="20" fill="#d8d2c8" stroke="#b8b2a8" stroke-width="1.5"/>
+  <rect x="325" y="60" width="70" height="65" rx="4" fill="#dedad4" stroke="#b8b2a8" stroke-width="1.5"/>
+  <!-- Row 2 -->
+  <rect x="80" y="155" width="60" height="50" rx="3" fill="#cec8be" stroke="#b0aaa0" stroke-width="1.5"/>
+  <rect x="160" y="150" width="80" height="55" rx="5" fill="#d8d2c8" stroke="#b0aaa0" stroke-width="1.5"/>
+  <rect x="260" y="152" width="65" height="52" rx="4" fill="#dedad4" stroke="#b0aaa0" stroke-width="1.5"/>
+  <rect x="340" y="150" width="50" height="55" rx="15" fill="#cec8be" stroke="#b0aaa0" stroke-width="1.5"/>
+  <!-- Highlight -->
+  <line x1="60" y1="64" x2="150" y2="64" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <line x1="165" y1="59" x2="240" y2="59" stroke="white" stroke-width="1.5" opacity="0.7"/>
+  <!-- Label -->
+  <rect x="126" y="115" width="200" height="30" rx="4" fill="white" opacity="0.85"/>
+  <text x="226" y="135" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#4a3e30" font-weight="bold">セラミック成形品</text>
+</svg>

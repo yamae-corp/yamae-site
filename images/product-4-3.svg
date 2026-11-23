@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#eef2f0"/>
+  <!-- Container/logistics box -->
+  <!-- Main container body -->
+  <rect x="60" y="60" width="332" height="180" rx="4" fill="#b8c8c0" stroke="#8aa09a" stroke-width="2"/>
+  <!-- Container top face (3D effect) -->
+  <polygon points="60,60 100,30 432,30 392,60" fill="#d0dcd8" stroke="#8aa09a" stroke-width="1.5"/>
+  <!-- Container right face -->
+  <polygon points="392,60 432,30 432,210 392,240" fill="#a0b0a8" stroke="#8aa09a" stroke-width="1.5"/>
+  <!-- Horizontal ribs on front face -->
+  <line x1="60" y1="100" x2="392" y2="100" stroke="#8aa09a" stroke-width="1.5"/>
+  <line x1="60" y1="140" x2="392" y2="140" stroke="#8aa09a" stroke-width="1.5"/>
+  <line x1="60" y1="180" x2="392" y2="180" stroke="#8aa09a" stroke-width="1.5"/>
+  <line x1="60" y1="220" x2="392" y2="220" stroke="#8aa09a" stroke-width="1.5"/>
+  <!-- Vertical ribs on front face -->
+  <line x1="150" y1="60" x2="150" y2="240" stroke="#8aa09a" stroke-width="1"/>
+  <line x1="226" y1="60" x2="226" y2="240" stroke="#8aa09a" stroke-width="1"/>
+  <line x1="302" y1="60" x2="302" y2="240" stroke="#8aa09a" stroke-width="1"/>
+  <!-- Corner posts -->
+  <rect x="60" y="60" width="10" height="180" fill="#90a098" opacity="0.8"/>
+  <rect x="382" y="60" width="10" height="180" fill="#90a098" opacity="0.8"/>
+  <!-- Handles -->
+  <rect x="195" y="138" width="62" height="8" rx="3" fill="#708078" stroke="#506058" stroke-width="1"/>
+  <!-- Label -->
+  <rect x="101" y="228" width="250" height="30" rx="4" fill="white" opacity="0.88"/>
+  <text x="226" y="248" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#304038" font-weight="bold">物流・産業資材（コンテナ等）</text>
+</svg>

@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+
+<html lang="ja">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="株式会社山恵の情報セキュリティ基本方針。お客様・お取引先・当社が保有する情報資産を適切に保護し、安全かつ信頼される事業活動を継続するために取り組みます。" />
+  <title>情報セキュリティ基本方針 | 株式会社山恵</title>
+  <link href="https://fonts.googleapis.com" rel="preconnect" />
+  <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;500;700&amp;display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="../style.css">
+  <style data-purpose="custom-styles">
+    html {
+      scroll-behavior: smooth;
+    }
+
+    body {
+      background-color: #ffffff;
+      color: #333333;
+    }
+
+    /* Background dots pattern */
+    .bg-pattern {
+      background-image: radial-gradient(#e5e7eb 1px, transparent 1px);
+      background-size: 20px 20px;
+    }
+
+    /* Section Headings */
+    .section-label {
+      font-size: 0.75rem;
+      font-weight: 700;
+      letter-spacing: 0.12em;
+      color: #2f9cbd;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+    }
+
+    .section-title {
+      font-size: clamp(1.5rem, 3vw, 2rem);
+      font-weight: 700;
+      color: #183c54;
+      line-height: 1.4;
+      display: flex;
+      align-items: center;
+      gap: 16px;
+    }
+
+    .section-title::after {
+      content: "";
+      display: block;
+      width: 40px;
+      height: 3px;
+      background-color: #2f6098;
+      margin-top: 8px;
+    }
+
+    /* Document headings */
+    .doc-heading {
+      display: flex;
+      align-items: center;
+      gap: 12px;
+      color: #183c54;
+      font-weight: 700;
+      font-size: 1.125rem;
+      margin-bottom: 16px;
+      padding-bottom: 8px;
+      border-bottom: 2px solid #e9f2f8;
+    }
+
+    .doc-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 6px;
+      background-color: #2f6098;
+      color: #ffffff;
+      font-size: 0.875rem;
+      font-weight: bold;
+      flex-shrink: 0;
+    }
+  </style>
+  <link rel="stylesheet" href="../tailwind.css">
+</head>
+
+<body>
+  <header class="site-header" id="top">
+    <div class="site-header__inner container">
+      <a href="../index.html" class="site-header__logo" aria-label="株式会社 山恵 トップへ">
+        <img src="../images/logo_01.png" alt="" width="165" height="40" class="site-header__logo-icon">
+        <span class="site-header__logo-text">断熱材を主とした産業・工業用機器部品の総合商社</span>
+      </a>
+      <button type="button" class="site-header__menu-toggle" aria-expanded="false" aria-controls="global-nav" aria-label="メニューを開く">
+        <span class="site-header__menu-bar"></span>
+        <span class="site-header__menu-bar"></span>
+        <span class="site-header__menu-bar"></span>
+      </button>
+      <nav class="site-header__nav" id="global-nav" aria-label="グローバルナビゲーション">
+        <ul class="site-header__nav-list">
+          <li><a class="text-sm font-medium" href="../index.html">ホーム</a></li>
+          <!-- <li><a class="text-sm font-medium" href="./business.html">事業紹介</a></li> -->
+          <li><a class="text-sm font-medium" href="./product.html">製品案内</a></li>
+          <li><a class="text-sm font-medium active-nav-border" href="./company.html">企業情報</a></li>
+          <li><a class="btn-nav-contact" href="./contact.html">お問い合わせ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+  <!-- END: MainHeader -->
+  <main class="bg-pattern min-h-screen py-12">
+    <div class="max-w-7xl mx-auto px-4 flex flex-col lg:flex-row-reverse gap-8">
+
+      <!-- BEGIN: ContentArea -->
+      <div class="flex-1 bg-white p-8 lg:p-12 shadow-sm border border-gray-100 rounded-sm">
+        <nav class="mb-8 text-sm text-slate-500" aria-label="パンくずリスト">
+          <ol class="flex items-center gap-2 flex-wrap">
+            <li><a href="../index.html" class="hover:text-blue-600">ホーム</a></li>
+            <li class="text-slate-300">/</li>
+            <li><a href="./company.html" class="hover:text-blue-600">企業情報</a></li>
+            <li class="text-slate-300">/</li>
+            <li class="text-slate-700 font-medium">情報セキュリティ基本方針</li>
+          </ol>
+        </nav>
+
+        <section id="security-policy">
+          <header class="mb-6">
+            <p class="section-label">INFORMATION SECURITY POLICY</p>
+            <h2 class="section-title">情報セキュリティ基本方針</h2>
+          </header>
+
+          <p class="mb-10 text-gray-700 leading-relaxed">
+            株式会社山恵は、お客様、お取引先様および当社が保有する情報資産を適切に保護し、安全かつ信頼される事業活動を継続するため、情報セキュリティの確保および向上に取り組みます。
+          </p>
+
+          <div class="space-y-10 text-gray-700 leading-relaxed">
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">1</span>情報資産の保護</h3>
+              <p>当社は、保有する情報資産の機密性、完全性および可用性を確保し、適切な管理と保護を行います。</p>
+            </div>
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">2</span>法令等の遵守</h3>
+              <p>当社は、個人情報保護法その他の関連法令、規則および取引先との契約事項を遵守します。</p>
+            </div>
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">3</span>サイバーセキュリティ対策</h3>
+              <p>当社は、不正アクセス、コンピュータウイルス、ランサムウェア等の脅威に対し、適切な予防策および防御策を講じます。</p>
+            </div>
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">4</span>個人情報および機密情報の保護</h3>
+              <p>当社は、お客様、お取引先様および従業員の個人情報ならびに機密情報を適切に管理し、不正利用、漏えい、紛失および改ざんの防止に努めます。</p>
+            </div>
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">5</span>教育および啓発</h3>
+              <p>当社は、全従業員に対して情報セキュリティに関する教育および啓発活動を継続的に実施し、情報セキュリティ意識の向上に努めます。</p>
+            </div>
+            <div>
+              <h3 class="doc-heading"><span class="doc-num">6</span>事故発生時の対応</h3>
+              <p>当社は、情報セキュリティ事故が発生した場合、迅速な対応により被害の拡大を防止するとともに、原因究明および再発防止に努めます。</p>
+            </div>
+          </div>
+
+          <div class="mt-12 text-sm text-gray-600">
+            <p class="mb-4">制定日：2026年6月23日</p>
+            <p class="mb-1">株式会社 山恵</p>
+            <p>代表取締役 山邉孝治</p>
+          </div>
+        </section>
+      </div>
+      <!-- END: ContentArea -->
+
+      <!-- BEGIN: SideBar -->
+      <aside class="w-full lg:w-80">
+        <div class="bg-white border border-gray-200 rounded-sm overflow-hidden shadow-sm">
+          <div class="bg-blue-50 border-t-2 border-blue-500 p-4">
+            <h3 class="text-lg font-bold text-blue-900">企業情報</h3>
+          </div>
+          <nav class="flex flex-col">
+            <a class="flex items-center gap-3 p-4 text-sm text-slate-600 hover:bg-slate-50 transition-colors border-b border-gray-100"
+              href="./company.html">
+              <span class="text-blue-500">➔</span>
+              会社概要・沿革
+            </a>
+            <a class="flex items-center gap-3 p-4 text-sm text-slate-600 hover:bg-slate-50 transition-colors border-b border-gray-100"
+              href="./environment.html">
+              <span class="text-blue-500">➔</span>
+              環境方針
+            </a>
+            <a class="flex items-center gap-3 p-4 text-sm text-slate-600 hover:bg-slate-50 transition-colors border-b border-gray-100"
+              href="./dx.html">
+              <span class="text-blue-500">➔</span>
+              DX基本方針・戦略
+            </a>
+            <a class="flex items-center gap-3 p-4 text-sm font-bold text-blue-600 bg-blue-50/50">
+              <span class="text-blue-500">➔</span>
+              情報セキュリティ基本方針
+            </a>
+          </nav>
+        </div>
+      </aside>
+      <!-- END: SideBar -->
+    </div>
+  </main>
+  <footer class="site-footer" id="environment">
+    <div class="site-footer__main container">
+      <div class="site-footer__brand">
+        <div class="site-footer__logo-area">
+          <a href="../index.html" class="site-footer__logo">
+            <img src="../images/logo_01.png" alt="" width="165" height="40">
+          </a>
+        </div>
+        <address class="site-footer__address">
+          〒530-0043 大阪府大阪市北区天満1-19-4<br>
+          TEL：<a href="tel:0663525288">06-6352-5288</a>　FAX：06-6351-7687<br>
+          電話受付時間：9:00〜17:00（土・日・祝日除く）
+        </address>
+      </div>
+
+      <nav class="site-footer__nav" aria-label="フッターナビゲーション">
+        <div class="site-footer__nav-col">
+          <a href="./product.html" class="site-footer__nav-title">製品案内</a>
+          <ul>
+            <li><a href="./product.html">打ち抜き・押し出し加工品</a></li>
+            <li><a href="./product1.html">成形品</a></li>
+            <li><a href="./product2.html">原材料その他</a></li>
+            <li><a href="./product3.html">その他 生産ライン・物流資材</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__nav-col">
+          <a href="./company.html" class="site-footer__nav-title">企業情報</a>
+          <ul>
+            <li><a href="./company.html">会社概要・沿革</a></li>
+            <li><a href="./environment.html">環境方針</a></li>
+            <li><a href="./dx.html">DX基本方針・戦略</a></li>
+            <li><a href="./security.html">情報セキュリティ基本方針</a></li>
+          </ul>
+        </div>
+        <div class="site-footer__nav-col">
+          <a href="./contact.html" class="site-footer__nav-title">お問い合わせ</a>
+          <img src="../images/iso-jas.png" alt="ISO 14001 認証取得" class="site-footer__cert-logo">
+        </div>
+      </nav>
+    </div>
+
+    <div class="site-footer__bottom">
+      <div class="container site-footer__bottom-inner">
+        <p class="site-footer__copyright"><small>Copyright &copy; 株式会社 山恵 All Rights Reserved.</small></p>
+        <button type="button" class="back-to-top-footer" aria-label="ページトップへ戻る">
+          <span class="back-to-top-footer__icon" aria-hidden="true"></span>
+          TOP
+        </button>
+      </div>
+    </div>
+  </footer>
+  <script src="../main.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 452 266" width="100%">
+  <rect width="452" height="266" fill="#f4f0ec"/>
+  <!-- Fiber-like texture background -->
+  <rect x="40" y="40" width="372" height="186" rx="8" fill="#ece8e0" stroke="#d0c8bc" stroke-width="1"/>
+  <!-- Fiber layers -->
+  <line x1="40" y1="60" x2="412" y2="68" stroke="#d8d0c8" stroke-width="3" opacity="0.7"/>
+  <line x1="40" y1="80" x2="412" y2="88" stroke="#ccc4bc" stroke-width="2.5" opacity="0.6"/>
+  <line x1="40" y1="100" x2="412" y2="108" stroke="#d8d0c8" stroke-width="3" opacity="0.7"/>
+  <line x1="40" y1="120" x2="412" y2="128" stroke="#ccc4bc" stroke-width="2.5" opacity="0.6"/>
+  <line x1="40" y1="140" x2="412" y2="148" stroke="#d8d0c8" stroke-width="3" opacity="0.7"/>
+  <line x1="40" y1="160" x2="412" y2="168" stroke="#ccc4bc" stroke-width="2.5" opacity="0.6"/>
+  <line x1="40" y1="180" x2="412" y2="188" stroke="#d8d0c8" stroke-width="3" opacity="0.7"/>
+  <line x1="40" y1="200" x2="412" y2="208" stroke="#ccc4bc" stroke-width="2.5" opacity="0.6"/>
+  <!-- Molded shape outline -->
+  <rect x="130" y="70" width="192" height="130" rx="6" fill="none" stroke="#a89880" stroke-width="2" stroke-dasharray="6,3"/>
+  <!-- Label -->
+  <rect x="111" y="228" width="230" height="30" rx="4" fill="white" opacity="0.9"/>
+  <text x="226" y="248" text-anchor="middle" font-family="'Noto Sans JP', sans-serif" font-size="12" fill="#4a3e30" font-weight="bold">セラミックファイバー成形品</text>
+</svg>
